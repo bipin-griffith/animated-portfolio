@@ -1,11 +1,12 @@
 @import "../../app.scss";
 
 .contact {
-  height: 100%;
-  max-width: 1366px;
+  height: 90%;
+  max-width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
+  margin-top: 3%;
   gap: 50px;
 
   @include mobile {
