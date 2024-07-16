@@ -62,7 +62,7 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>11 Sherrerad Street Dublin 1, Ireland</span>
+          <span>87 St. Attracta Rd, Cabra East, Dublin 7, Ireland</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>

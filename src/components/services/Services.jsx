@@ -53,10 +53,12 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
             Business.
           </h1>
-          <button>Lets Connect</button>
+          <button>
+            <a href="#Contact">Lets Connect</a>
+          </button>
         </div>
       </motion.div>
-      <motion.div className="listContainer" variants={variants}>
+      {/* <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -90,18 +92,7 @@ const Services = () => {
           </p><br />
           <button>Go</button>
         </motion.div>
-        {/* <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h3>Content Creator</h3>
-          <p>
-            Also create unique and better content for brand with up to latest
-            market trend and vision.
-          </p><br />
-          <button>Go</button>
-        </motion.div> */}
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
