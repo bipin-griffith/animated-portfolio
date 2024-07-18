@@ -58,7 +58,7 @@ const Services = () => {
           </button>
         </div>
       </motion.div>
-      {/* <motion.div className="listContainer" variants={variants}>
+      <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -92,7 +92,7 @@ const Services = () => {
           </p><br />
           <button>Go</button>
         </motion.div>
-      </motion.div> */}
+      </motion.div>
     </motion.div>
   );
 };

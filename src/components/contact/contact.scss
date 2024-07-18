@@ -33,7 +33,15 @@
       line-height: 88px;
 
       @include mobile {
-        font-size: 36px;
+        font-size: 20px;
+        margin-top: -80px;
+        margin-left: 10px;
+      }
+    }
+
+    .itemadd {
+      @include mobile {
+        display: none;
       }
     }
 
@@ -45,12 +53,12 @@
   .formContainer {
     flex: 1;
     position: relative;
-    
-    @include mobile {
-      padding: 50px;
-      width: 100%;
-    }
 
+    @include mobile {
+      padding: 20px;
+      width: 100%;
+      margin-top: -20px;
+    }
 
     .phoneSvg {
       stroke: orange;

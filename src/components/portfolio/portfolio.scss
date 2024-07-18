@@ -49,7 +49,9 @@
 
       @include mobile {
         flex-direction: column;
+        margin-left: 30px;
         top: 0%;
+        margin-top: -30px;
       }
 
       .imageContainer {
@@ -63,9 +65,10 @@
         z-index: -1;
 
         @include mobile {
-          width: 90%;
+          width: 80%;
           max-height: 300px;
-          align-content: center;
+          text-align: center;
+          margin-left: -40px;
         }
 
         img {
@@ -86,6 +89,7 @@
             object-fit: contain;
             border-radius: 0px;
             margin-top: 0%;
+            margin-left: 5px;
           }
         }
       }
@@ -102,14 +106,16 @@
           transform: none !important;
           padding: 10px;
           align-items: center;
-          text-align: center;
+          text-align: justify;
+          width: 100%;
+          margin-top: 80px;
         }
 
         h2 {
           font-size: 50px;
 
           @include mobile {
-            font-size: 36px;
+            font-size: 26px;
           }
         }
 

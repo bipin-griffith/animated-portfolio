@@ -60,7 +60,7 @@ const Contact = () => {
           <h2>Mail</h2>
           <span>bgupta9861@gmail.com</span>
         </motion.div>
-        <motion.div className="item" variants={variants}>
+        <motion.div className="itemadd" variants={variants}>
           <h2>Address</h2>
           <span>87 St. Attracta Rd, Cabra East, Dublin 7, Ireland</span>
         </motion.div>
