@@ -22,17 +22,17 @@ const variants = {
 const Services = () => {
   const ref = useRef();
 
-  const isInView = useInView(ref, { margin: "-100px" });
+  // const isInView = useInView(ref, { margin: "-100px" });
 
   return (
     <motion.div
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
+      animate="animate"
+      whileInView="animate"
       ref={ref}
-      animate={isInView && "animate"}
+      // animate={isInView && "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
@@ -66,8 +66,10 @@ const Services = () => {
           <h3>Website Development</h3>
           <p>
             I create website with clients requirement and unique ideas with
-            modern framework such as React, JavasScript, Angular and HTML
-          </p><br />
+            modern framework such as <b style={{color: 'orange'}}>React</b>, <b style={{color: 'orange'}}>JavasScript</b>,{" "}
+            <b style={{color: 'orange'}}>Angular</b> and <b style={{color: 'orange'}}>HTML</b>
+          </p>
+          <br />
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -78,7 +80,8 @@ const Services = () => {
           <p>
             Working experience with mobile app development for cross platform
             using React Native, Flutter platform and programming languages
-          </p><br />
+          </p>
+          <br />
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -89,7 +92,8 @@ const Services = () => {
           <p>
             Create Brand logo and design templates for the clients using
             different online platform and on demand photshoot for the company
-          </p><br />
+          </p>
+          <br />
           <button>Go</button>
         </motion.div>
       </motion.div>

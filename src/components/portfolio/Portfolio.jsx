@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Doctor Booking App",
-    img: "DoctorApp.png",
+    img: "https://figmaelements.com/wp-content/uploads/2020/10/personal-doctor-mobile.png",
     desc: "This app, built with React Native and JavaScript, helps folks book doctor appointments and find nearby doctors. It's like a handy tool that makes it easy to set up medical visits and locate the right doctor for you. It's simple to use and makes managing healthcare needs a breeze!",
     link: "https://github.com/bipin-gupta/previewScreen",
   },
@@ -19,7 +19,7 @@ const items = [
   },
   {
     id: 3,
-    title: "Football Club Website",
+    title: "Football Website",
     img: "Chelsea.png",
     desc: "Welcome to our football club website, where HTML, CSS, and JavaScript come together to create an immersive experience for fans. Dive into our virtual stadium to shop for the latest gear, log in to access exclusive member benefits, and scroll through daily updates about the club. Become a part of our community by registering as a member, unlocking personalized recommendations and member-only discounts.",
     link: "https://github.com/bipin-gupta/chelsea-fc-fan-website-2",

@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
 .services {
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: linear-gradient(180deg, #2e3192, #111132);
   height: calc(100vh);
   display: flex;
   flex-direction: column;
@@ -109,9 +109,9 @@
     margin: auto;
 
     @include mobile {
-      display: none;
       flex-direction: column;
       width: 100%;
+      display: flex;
     }
 
     .box {
@@ -125,19 +125,24 @@
       @include mobile {
         border: none;
         align-items: center;
-        gap: 20px;
+        gap: 1px;
         padding: 10px;
       }
 
-      h2 {
+      h3 {
         font-size: 40px;
+
+        @include mobile {
+          font-size: 22px;
+          color: white;
+        }
       }
 
       p {
         font-size: 14px;
-
+        color: rgb(85, 86, 168);
         @include mobile {
-          display: none;
+          justify-content: center;
         }
       }
 
@@ -148,15 +153,23 @@
         cursor: pointer;
 
         @include mobile {
-          background-color: transparent;
-          border: 1px solid orange;
+          display: none;
+          // background-color: transparent;
+          // border: 1px solid orange;
           border-radius: 5px;
-          color: orange;
+          // color: orange;
           width: 50%;
           padding: 5px;
-        
+          background-color: orange;
+          border: none;
+          cursor: pointer;
         }
       }
     }
+  }
+
+  @include mobile {
+    margin-top: 0px;
+    height: fit-content;
   }
 }
