@@ -66,8 +66,13 @@ const Services = () => {
           <h3>Website Development</h3>
           <p>
             I create website with clients requirement and unique ideas with
-            modern framework such as <b style={{color: 'orange'}}>React</b>, <b style={{color: 'orange'}}>JavasScript</b>,{" "}
-            <b style={{color: 'orange'}}>Angular</b> and <b style={{color: 'orange'}}>HTML</b>
+            modern framework such as{" "}
+            <b style={{ color: "orange" }}>MERN Stack</b>,{" "}
+            <b style={{ color: "orange" }}>ASP .Net Framework</b>,{" "}
+            <b style={{ color: "orange" }}>MVC Framework</b>,{" "}
+            <b style={{ color: "orange" }}>WordPress</b>,{" "}
+            <b style={{ color: "orange" }}>Wix</b>,{" "}
+            <b style={{ color: "orange" }}>EditorX</b>,{" "}
           </p>
           <br />
           <button>Go</button>
@@ -79,7 +84,9 @@ const Services = () => {
           <h3>Mobile App Development</h3>
           <p>
             Working experience with mobile app development for cross platform
-            using React Native, Flutter platform and programming languages
+            using <b style={{ color: "orange" }}>React Native</b>,{" "}
+            <b style={{ color: "orange" }}>Flutter</b>,{" "}
+            <b style={{ color: "orange" }}>Dart</b>
           </p>
           <br />
           <button>Go</button>
@@ -88,10 +95,17 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h3>Brand Design</h3>
+          <h3>Programming Languages</h3>
           <p>
-            Create Brand logo and design templates for the clients using
-            different online platform and on demand photshoot for the company
+            Some of the different programming i know are{" "}
+            <b style={{ color: "orange" }}>Javascript</b>,{" "}
+            <b style={{ color: "orange" }}>C#</b>,{" "}
+            <b style={{ color: "orange" }}>Python</b>,{" "}
+            <b style={{ color: "orange" }}>Java</b>,{" "}
+            <b style={{ color: "orange" }}>C++</b>,{" "}
+            <b style={{ color: "orange" }}>Bootstrap</b>,{" "}
+            <b style={{ color: "orange" }}>Ajax</b>,{" "}
+            <b style={{ color: "orange" }}>Query</b>
           </p>
           <br />
           <button>Go</button>
