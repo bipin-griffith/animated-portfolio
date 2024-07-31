@@ -52,15 +52,26 @@ const Hero = () => {
             Software & Full Stack Developer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              <motion.a variants={textVariants} href="#Portfolio">
-                See My Latest Works
-              </motion.a>
+            <motion.button
+              variants={textVariants}
+              onClick={() =>
+                document
+                  .getElementById("Portfolio")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              See My Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>
-              <motion.a variants={textVariants} href="#Contact">
-                Contact Me
-              </motion.a>
+
+            <motion.button
+              variants={textVariants}
+              onClick={() =>
+                document
+                  .getElementById("Contact")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Contact Me
             </motion.button>
           </motion.div>
           <motion.img

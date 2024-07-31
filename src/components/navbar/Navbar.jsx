@@ -6,9 +6,9 @@ import "./navbar.scss";
 const Navbar = () => {
   const menuItems = [
     { name: "Homepage", link: "/" },
-    { name: "Services", link: "/#Services" },
-    { name: "Portfolio", link: "/#Portfolio" },
-    { name: "Contact", link: "/#Contact" },
+    { name: "Services", link: "/Services" },
+    { name: "Portfolio", link: "/Portfolio" },
+    { name: "Contact", link: "/Contact" },
     { name: "About Me", link: "/about" },
   ];
 

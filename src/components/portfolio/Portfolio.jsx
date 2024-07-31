@@ -31,6 +31,34 @@ const items = [
     desc: "React Native Project - XResearch Mobile App Welcome to my Mobile App project, a project built using React Native and Firebase for the Mobile App Development assignment. This app allows users to register, log in, view their user profile, navigate through different screens, and log out at any time. Below, you'll find a detailed overview of the app's features.",
     link: "https://github.com/bipin-gupta/React-Native-Project",
   },
+  {
+    id: 5,
+    title: "React Router Demo",
+    img: "https://res.cloudinary.com/practicaldev/image/fetch/s---dvPKy6Q--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://miro.medium.com/max/1400/0%2AID7KJ8DuspcjB343",
+    desc: "The React Router DOM Demo Project showcases the usage and functionality of React Router DOM, a powerful library for handling routing in React applications. This project demonstrates how to implement various types of routes, navigate between different pages, and manage dynamic content seamlessly within a React application.",
+    link: "https://github.com/bipin-griffith/React-Router",
+  },
+  {
+    id: 6,
+    title: "React Redux Demo",
+    img: "https://i.ytimg.com/vi/k68j9xlbHHk/sddefault.jpg",
+    desc: "The React Redux Demo Project is designed to demonstrate the core concepts and practical implementation of Redux within a React application. This project illustrates how to manage state effectively using Redux, including state actions, reducers, and middleware. It provides a comprehensive example of integrating Redux with a React application, showcasing best practices and common use cases.",
+    link: "https://github.com/bipin-griffith/Redux",
+  },
+  {
+    id: 7,
+    title: "React Query(tanstack) Demo",
+    img: "https://miro.medium.com/v2/resize:fit:1358/1*BV_VvSSOT4Pv0Cd4uXcyVA.png",
+    desc: "The React Query TanStack Demo Project is designed to showcase the power and flexibility of React Query (part of TanStack) for managing server-state in React applications. This project provides a practical example of using React Query to fetch, cache, synchronize, and update server data, demonstrating how it can simplify data fetching and state management.",
+    link: "https://github.com/bipin-griffith/React-Querry",
+  },
+  {
+    id: 8,
+    title: "React Native App",
+    img: "https://dailytrust.com/wp-content/uploads/2024/05/react-native-app-development.jpeg",
+    desc: "TThe React Native Frontend Demo Project is designed to showcase the capabilities of React Native for building cross-platform mobile applications. This project demonstrates how to create a fully functional mobile app with essential features, leveraging the power of React Native components, navigation, and state management. It provides a comprehensive example of building a modern mobile application with a clean and intuitive user interface.",
+    link: "https://github.com/bipin-gupta/previewScreen",
+  },
 ];
 
 const Single = ({ item }) => {

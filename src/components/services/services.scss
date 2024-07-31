@@ -2,11 +2,15 @@
 
 .services {
   background: linear-gradient(180deg, #2e3192, #111132);
-  height: calc(100vh);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+
+  @include mobile {
+    height: auto;
+  }
 
   .textContainer {
     flex: 1;
@@ -20,13 +24,22 @@
       align-self: center;
       text-align: center;
       flex-direction: column;
+      margin-left: 0px;
+      padding: 20px;
+      top: 0px;
     }
 
     p {
       font-weight: 200;
       font-size: 16px;
-      color: gray;
+      color: white;
       text-align: right;
+
+      @include mobile {
+        text-align: justify;
+        margin-left: 60px;
+        margin-top: -20px;
+      }
     }
 
     hr {
@@ -35,10 +48,12 @@
       border-top: 0.5px solid gray;
 
       @include mobile {
-        width: 300px;
+        width: 80%;
+        margin-left: 60px;
       }
     }
   }
+
   .titleContainer {
     flex: 2;
     display: flex;
@@ -49,6 +64,9 @@
 
     @include mobile {
       width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 0 20px;
     }
 
     .title {
@@ -71,6 +89,7 @@
         @include mobile {
           width: 200px;
           height: 50px;
+          display: none;
         }
       }
 
@@ -94,14 +113,12 @@
         cursor: pointer;
 
         @include mobile {
-          display: none;
-          font-size: 16px;
-          width: 150px;
-          height: 50px;
+          display: block;
         }
       }
     }
   }
+
   .listContainer {
     flex: 2;
     display: flex;
@@ -111,7 +128,17 @@
     @include mobile {
       flex-direction: column;
       width: 100%;
-      display: flex;
+      margin-top: 0;
+      padding: 0 10px;
+    }
+
+    img {
+      display: none;
+      @include mobile{
+        display: block;
+        height: 500px;
+        width: 350px;
+      }
     }
 
     .box {
@@ -120,29 +147,36 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding-bottom: 1;
 
       @include mobile {
         border: none;
         align-items: center;
-        gap: 1px;
-        padding: 10px;
+        padding: 20px 10px;
+        display: none;
       }
 
       h3 {
         font-size: 40px;
 
         @include mobile {
-          font-size: 22px;
-          color: white;
+          font-size: 24px;
+          color: #6366ca;
+          text-align: center;
+          padding: 10px;
+          margin-bottom: -5px;
         }
       }
 
       p {
         font-size: 14px;
         color: rgb(85, 86, 168);
+
         @include mobile {
-          justify-content: center;
+          font-size: 14px;
+          text-align: center;
+          color: white;
+          padding: 15px;
+          background-color: rgba(99, 102, 202, 0.8);
         }
       }
 
@@ -154,22 +188,19 @@
 
         @include mobile {
           display: none;
-          // background-color: transparent;
-          // border: 1px solid orange;
-          border-radius: 5px;
-          // color: orange;
           width: 50%;
           padding: 5px;
+          border-radius: 5px;
           background-color: orange;
-          border: none;
-          cursor: pointer;
         }
       }
+
+      
     }
   }
 
   @include mobile {
-    margin-top: 0px;
-    height: fit-content;
+    margin-top: 0;
+    height: auto;
   }
 }

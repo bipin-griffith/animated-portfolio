@@ -59,6 +59,7 @@ const Services = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
+        <img src="mobile-service.png" />
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}

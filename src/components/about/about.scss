@@ -1,10 +1,11 @@
 @import "../../app.scss";
 
 .about {
-  height: calc(100vh - 100px);
+  height: auto;
   overflow: hidden;
   background: linear-gradient(180deg, #2e3192, #111132);
   position: relative;
+  padding-bottom: 50px;
 
   .about-wrapper {
     max-width: 95%;
@@ -39,8 +40,9 @@
         letter-spacing: 10px;
 
         @include mobile {
-          font-size: 24px;
-          letter-spacing: 5px;
+          font-size: 34px;
+          letter-spacing: 3px;
+          color: #111132;
         }
       }
 
@@ -96,9 +98,46 @@
         border-radius: 10px;
 
         @include mobile {
-          width: 100%;
-          height: auto;
+          width: 180%;
+          height: 180%;
+          margin-left: -37%;
+          object-fit: cover;
         }
+      }
+    }
+  }
+
+  .about-content {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+
+    section {
+      margin-bottom: 50px;
+      height: auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+      h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: rebeccapurple;
+      }
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: white;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        color: #ddd;
       }
     }
   }
