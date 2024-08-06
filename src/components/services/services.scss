@@ -122,8 +122,10 @@
   .listContainer {
     flex: 2;
     display: flex;
-    max-width: 98%;
-    margin: auto;
+    max-width: 95%;
+    max-height: 250px;
+    padding-bottom: 30px;
+    margin-left: 7%;
 
     @include mobile {
       flex-direction: column;
@@ -143,10 +145,11 @@
 
     .box {
       padding: 30px;
+      max-width: 30%;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-evenly;
 
       @include mobile {
         border: none;

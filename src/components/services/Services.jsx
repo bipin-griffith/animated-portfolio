@@ -54,7 +54,7 @@ const Services = () => {
             Business.
           </h1>
           <button>
-            <a href="#Contact">Lets Connect</a>
+            <a href="/contact">Lets Connect</a>
           </button>
         </div>
       </motion.div>
@@ -76,7 +76,7 @@ const Services = () => {
             <b style={{ color: "orange" }}>EditorX</b>,{" "}
           </p>
           <br />
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -90,7 +90,7 @@ const Services = () => {
             <b style={{ color: "orange" }}>Dart</b>
           </p>
           <br />
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -109,7 +109,7 @@ const Services = () => {
             <b style={{ color: "orange" }}>Query</b>
           </p>
           <br />
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
       </motion.div>
     </motion.div>
